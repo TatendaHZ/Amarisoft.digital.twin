@@ -40,7 +40,7 @@ This means that we will have 3 basic hosts (UE, gNB and CP), plus one additional
 A PDU session will be initiated for each slice.
 The current configuration links all UPF docker hosts to the second switch (S2). 
 
-<img src="./images/5G-server.jpg" title="./images/5G-server.jpg" width=1000px></img>
+<img src="./images/digit.drawio.png" title="./images/digit.drawio.png" width=1000px></img>
 
 
 Build the server docker image:
@@ -53,14 +53,13 @@ cd 5G_Project-auto-users/video_server
 ## Run the network topology
 
 ```
-sudo python3 auto_user_slice.py
-
+sudo python3 digital_twin_setup.py
 ```
 
-## Run The Ryu rest router 
+## Run digital twin
 
 ```
-sudo python3 run_additional_commands.py
+sudo python3 pcap_replay_twin.py
 
 ```
 
@@ -71,20 +70,7 @@ sudo python3 run_additional_commands.py
 sudo python3 5G.Net.test.py
 ```
 
-if you want to change the setup for the number of users and slices and their respective infromation 
 
-```
-sudo python3 configuration.py
-```
-
-
-## Run the network topology
-
-if you want to run evertthing at once 
-
-```
-./runTopology.sh
-```
 
 ### Contact
 
