@@ -74,17 +74,16 @@ sudo python3 5G.Net.test.py
 
 ### Contact
 
-Automatic user creation: 
+Amarisoft digital-twin creation: 
 - Tatenda Horiro Zhou - tatendazho@gmail.com
 
 Supervised by: 
 - Fabrizio Granelli - fabrizio.granelli@unitn.it
 
-Main maintainer:
-- Riccardo Fedrizzi - rfedrizzi@fbk.eu
 
 
 
 
-# 5G-Digital-twin
+
+
 # 5G-Digital-twin
