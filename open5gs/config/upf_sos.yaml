@@ -1,0 +1,16 @@
+logger:
+  file: /open5gs/install/var/log/open5gs/upf_sos.log
+max: null
+parameter: null
+pool: null
+smf: null
+time: null
+upf:
+  gtpu:
+  - addr: 192.168.0.115
+  pfcp:
+  - addr: 192.168.0.115
+  subnet:
+  - addr: 192.168.5.1/24
+    dev: ogstun
+    dnn: sos

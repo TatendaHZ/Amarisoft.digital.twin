@@ -1,0 +1,47 @@
+logger:
+  file: /open5gs/install/var/log/open5gs/smf.log
+max: null
+nrf:
+  sbi:
+  - addr:
+    - 127.0.0.10
+    port: 7777
+parameter: null
+pool: null
+smf:
+  dns:
+  - 8.8.8.8
+  - 8.8.4.4
+  - 2001:4860:4860::8888
+  - 2001:4860:4860::8844
+  freeDiameter: /open5gs/install/etc/freeDiameter/smf.conf
+  gtpc:
+  - addr: 127.0.0.4
+  gtpu:
+  - addr: 127.0.0.4
+  mtu: 1400
+  pfcp:
+  - addr: 192.168.0.111
+  sbi:
+  - addr: 127.0.0.4
+    port: 7777
+  subnet:
+  - addr: 192.168.2.1/24
+    dnn: default
+  - addr: 192.168.3.1/24
+    dnn: internet
+  - addr: 192.168.4.1/24
+    dnn: ims
+  - addr: 192.168.5.1/24
+    dnn: sos
+time: null
+upf:
+  pfcp:
+  - addr: 192.168.0.112
+    dnn: default
+  - addr: 192.168.0.113
+    dnn: internet
+  - addr: 192.168.0.114
+    dnn: ims
+  - addr: 192.168.0.115
+    dnn: sos

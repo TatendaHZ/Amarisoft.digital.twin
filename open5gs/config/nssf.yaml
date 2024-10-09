@@ -1,0 +1,36 @@
+logger:
+  file: /open5gs/install/var/log/open5gs/nssf.log
+max: null
+nrf:
+  sbi:
+  - addr:
+    - 127.0.0.10
+    port: 7777
+nssf:
+  nsi:
+  - addr: 127.0.0.10
+    port: 7777
+    s_nssai:
+      sd: 1
+      sst: 1
+  - addr: 127.0.0.10
+    port: 7777
+    s_nssai:
+      sd: 1
+      sst: 2
+  - addr: 127.0.0.10
+    port: 7777
+    s_nssai:
+      sd: 1
+      sst: 3
+  - addr: 127.0.0.10
+    port: 7777
+    s_nssai:
+      sd: 1
+      sst: 4
+  sbi:
+  - addr: 127.0.0.14
+    port: 7777
+parameter: null
+pool: null
+time: null
