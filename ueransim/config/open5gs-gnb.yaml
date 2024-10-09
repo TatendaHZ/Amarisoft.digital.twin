@@ -1,1 +1,21 @@
-
+amfConfigs:
+- address: 192.168.0.111
+  port: 38412
+gtpIp: 192.168.0.131
+idLength: 32
+ignoreStreamIds: true
+linkIp: 192.168.0.131
+mcc: '001'
+mnc: '01'
+nci: '0x000000010'
+ngapIp: 192.168.0.131
+slices:
+- sd: 1
+  sst: 1
+- sd: 1
+  sst: 2
+- sd: 1
+  sst: 3
+- sd: 1
+  sst: 4
+tac: 1
