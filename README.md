@@ -1,4 +1,4 @@
-# Amarisoft digitaltwin 
+# Amarisoft digital twin 
 Based on the already existing [5G network emulator](https://github.com/fabrizio-granelli/comnetsemu_5Gnet), with an added new functionality:
 **Implementation of a command line interaction for automatic user creation.** 
 
