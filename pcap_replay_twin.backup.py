@@ -12,7 +12,7 @@ logging.basicConfig(filename='file_transfer.log', level=logging.INFO, format='%(
 
 # Remote and local details
 remote_dir = "/root/Desktop/traffic/"
-remote_host = "10.196.31.246"
+remote_host = "10.xx.xx.xx"
 username = "root"
 password = os.getenv("SCP_PASSWORD", "5gbasestation+!")
 files = ["upf_default.pcap", "upf_internet.pcap", "upf_ims.pcap", "upf_sos.pcap"]
