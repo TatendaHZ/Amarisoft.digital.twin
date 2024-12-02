@@ -49,15 +49,16 @@ Build the server docker image:
 cd 5G_Project-auto-users/video_server
 ./build.sh
 ```
-## Run the physical twin
-
-```
-./runPhysicaltwin.sh
-```
 ## Run the data acquisition code
 
 ```
 sudo python3 twin_data_collector.py
+```
+
+## Run the physical twin
+
+```
+./runPhysicaltwin.sh
 ```
 
 ## Run the network topology
