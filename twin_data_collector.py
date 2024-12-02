@@ -5,9 +5,9 @@ import ipaddress
 import json
 
 # Define the remote host and credentials
-remote_host = "10.196.31.94"
-username = "root"
-password = os.getenv("SCP_PASSWORD", "5gbasestation+!")
+remote_host = "10.xx.xx.xx"
+username = "xxxxx"
+password = os.getenv("SCP_PASSWORD", "xxxxxxx")
 remote_path = "/root/mme/config/mme.cfg"  # Path to the configuration file on the remote host
 local_output_filename = "slice_info_with_qci_and_ip.json"  # Local output file
 
