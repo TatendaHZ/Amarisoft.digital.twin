@@ -49,7 +49,7 @@ Build the server docker image:
 cd 5G_Project-auto-users/video_server
 ./build.sh
 ```
-## Run the data collecting code
+## Run the data acquisition code
 
 ```
 sudo python3 twin_data_collector.py
