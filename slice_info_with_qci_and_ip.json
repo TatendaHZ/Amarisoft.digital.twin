@@ -1,0 +1,42 @@
+[
+    {
+        "slice_name": "default",
+        "qci": "9",
+        "ip_address": "192.168.2.1",
+        "users": [
+            "user1",
+            "user2"
+        ],
+        "bandwidth": "100MHz"
+    },
+    {
+        "slice_name": "internet",
+        "qci": "9",
+        "ip_address": "192.168.3.1",
+        "users": [
+            "user1",
+            "user2"
+        ],
+        "bandwidth": "100MHz"
+    },
+    {
+        "slice_name": "ims",
+        "qci": "5",
+        "ip_address": "192.168.4.1",
+        "users": [
+            "user1",
+            "user2"
+        ],
+        "bandwidth": "100MHz"
+    },
+    {
+        "slice_name": "sos",
+        "qci": "5",
+        "ip_address": "192.168.5.1",
+        "users": [
+            "user1",
+            "user2"
+        ],
+        "bandwidth": "100MHz"
+    }
+]
