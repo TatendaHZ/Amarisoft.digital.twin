@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
     setLogLevel("info")
 
-    prj_folder = "/home/vagrant/comnetsemu/Amari"
+    prj_folder = "/home/vagrant/comnetsemu/app/Amari"
     mongodb_folder = "/home/vagrant/mongodbdata"
 
     env = dict()
