@@ -46,7 +46,7 @@ The current configuration links all UPF docker hosts to the second switch (S2).
 Build the server docker image:
 
 ```
-cd 5G_Project-auto-users/video_server
+cd Anari/build
 ./build.sh
 ```
 ## Run the data acquisition code
