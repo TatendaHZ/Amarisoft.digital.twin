@@ -78,7 +78,7 @@ sudo python3 modified.digital_twin_setup.py
 
 
 ```
-sudo python3 5G.Net.test.py
+sudo python3 test.5G.Net.test.py
 ```
 
 
